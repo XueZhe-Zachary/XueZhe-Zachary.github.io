@@ -1,0 +1,32 @@
+# Basic information
+title: Zhe Xue
+position: M.Eng. Student in Software Engineering
+affiliation: Sichuan University
+email: xuezhe.xz@gmail.com
+
+# Search engine optimization
+keywords: AI for drug discovery, molecular generation, molecular optimization, generative modeling, scientific agents
+description: Zhe Xue is an M.Eng. student at Sichuan University researching AI for drug discovery, molecular generation and optimization, and LLM-based scientific agents.
+canonical: https://xuezhe-zachary.github.io/
+
+# Public links confirmed for this site
+github_link: https://github.com/XueZhe-Zachary
+
+# Display options
+enable_footnote: true
+auto_dark_mode: true
+font: "Sans Serif"
+
+# Use Minimal Light as the GitHub Pages theme
+remote_theme: yaoyao-liu/minimal-light
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE
+  - minimal-light.gemspec
+  - html_source_file/
