@@ -3,8 +3,13 @@
 
 @import "minimal-light";
 
+.profile-email {
+  display: block;
+  margin-top: 0.25rem;
+}
+
 .profile-links {
-  margin-top: 0.9rem;
+  margin-top: 0.55rem;
   font-size: 0.82rem;
   line-height: 1.7;
   white-space: nowrap;
@@ -17,6 +22,26 @@
 .image.avatar img {
   width: 54%;
   padding: 16px;
+}
+
+.about-lines {
+  line-height: 1.55;
+}
+
+.research-interests {
+  padding-left: 1.1em;
+}
+
+.research-summary {
+  margin-bottom: 20px;
+}
+
+.research-summary p {
+  margin: 0 0 6px;
+}
+
+.research-summary p:last-child {
+  margin-bottom: 0;
 }
 
 .pub-note {
