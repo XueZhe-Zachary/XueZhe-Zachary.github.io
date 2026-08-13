@@ -6,7 +6,7 @@ layout: homepage
 
 <p class="about-lines">I am an M.Eng. student in Software Engineering at Sichuan University, advised by <a href="https://scholar.google.com/citations?user=qxNzQfQAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Xianggen Liu</a>, with research conducted in collaboration with West China Hospital.<br>
 My research centers on <strong>generative AI and scientific agents</strong>, with drug discovery as a primary application domain, particularly molecular generation and optimization.<br>
-<strong>I am currently applying for PhD programs starting in Fall 2027</strong> and welcome opportunities to discuss potential research collaborations.</p>
+<strong>I am currently applying for PhD programs starting in Fall 2027.</strong></p>
 
 ## Research Interests
 
