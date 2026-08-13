@@ -44,14 +44,11 @@ My research centers on <strong>generative AI and scientific agents</strong>, wit
 
 ## Education
 
-**Sichuan University**  
-M.Eng. in Software Engineering, 2024–2027 (expected)
-
-**Sichuan University**  
-B.Eng. in Software Engineering, 2020–2024
-
-**National University of Singapore**  
-Summer Workshop, School of Computing, 2022
+<div class="education-list">
+  <div class="education-item"><strong>Sichuan University</strong><br>M.Eng. in Software Engineering, 2024–2027 (expected)</div>
+  <div class="education-item"><strong>Sichuan University</strong><br>B.Eng. in Software Engineering, 2020–2024</div>
+  <div class="education-item"><strong>National University of Singapore</strong><br>Summer Workshop, School of Computing, 2022</div>
+</div>
 
 ## Selected Honors
 
