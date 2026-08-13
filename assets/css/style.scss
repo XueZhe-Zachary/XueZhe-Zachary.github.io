@@ -3,55 +3,6 @@
 
 @import "minimal-light";
 
-html {
-  scroll-behavior: smooth;
-}
-
-h2[id] {
-  scroll-margin-top: 82px;
-}
-
-.site-nav {
-  position: fixed;
-  top: 12px;
-  left: 50%;
-  z-index: 1000;
-  width: 960px;
-  box-sizing: border-box;
-  transform: translateX(-50%);
-  border-radius: 7px;
-  background: #043361;
-  box-shadow: 0 3px 12px rgba(4, 51, 97, 0.14);
-}
-
-.site-nav-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  padding: 10px 18px;
-}
-
-.site-nav a {
-  color: #fff;
-  font-size: 0.88rem;
-  font-weight: 500;
-  line-height: 1.4;
-  white-space: nowrap;
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  color: #d7efff;
-  text-decoration: none;
-}
-
-.site-nav ~ header,
-.site-nav ~ section {
-  padding-top: 6.5em;
-}
-
-
 .profile-meta {
   font-size: 0.92rem;
   line-height: 1.5;
@@ -115,50 +66,12 @@ body .publications ol.bibliography > li:last-child {
 }
 
 @media (prefers-color-scheme: dark) {
-  .site-nav {
-    background: #123f68;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.28);
-  }
-
   .pub-note {
     color: #b7b8bd;
   }
 }
 
 @media print, screen and (max-width: 960px) {
-  h2[id] {
-    scroll-margin-top: 72px;
-  }
-
-  .site-nav {
-    position: sticky;
-    top: 8px;
-    left: auto;
-    width: 100%;
-    margin-bottom: 22px;
-    transform: none;
-  }
-
-  .site-nav-inner {
-    justify-content: flex-start;
-    gap: 24px;
-    overflow-x: auto;
-    padding: 9px 14px;
-    scrollbar-width: none;
-  }
-
-  .site-nav-inner::-webkit-scrollbar {
-    display: none;
-  }
-
-  .site-nav ~ header {
-    padding-top: 0;
-  }
-
-  .site-nav ~ section {
-    padding-top: 20px;
-  }
-
   .image.avatar img {
     width: 130px;
     padding: 16px;
