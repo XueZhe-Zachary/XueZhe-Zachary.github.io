@@ -3,6 +3,32 @@
 
 @import "minimal-light";
 
+section > h2 {
+  margin-top: 36px;
+  margin-bottom: 16px;
+}
+
+section > h2#about-me {
+  margin-top: 2px;
+}
+
+body .publications {
+  margin-top: 0;
+}
+
+.education-list {
+  margin-bottom: 20px;
+}
+
+.education-item {
+  margin-bottom: 12px;
+}
+
+.education-item:last-child {
+  margin-bottom: 0;
+}
+
+
 .profile-meta {
   font-size: 0.92rem;
   line-height: 1.5;
