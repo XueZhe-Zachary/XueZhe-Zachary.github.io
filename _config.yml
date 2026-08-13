@@ -12,6 +12,9 @@ canonical: https://xuezhe-zachary.github.io/
 # Public links confirmed for this site
 github_link: https://github.com/XueZhe-Zachary
 
+# Profile image
+avatar: ./assets/img/avatar.jpg
+
 # Display options
 enable_footnote: true
 auto_dark_mode: true
