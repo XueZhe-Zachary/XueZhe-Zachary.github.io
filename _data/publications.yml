@@ -4,21 +4,23 @@ main:
     conference_short: Bioinformatics
     conference: "<em>Bioinformatics</em>, 41(1), btae730, 2025."
     paper: https://doi.org/10.1093/bioinformatics/btae730
-    notes: First author
+    notes: "First author"
 
   - title: "Anesthetic Drug Discovery with Computer-Aided Drug Design and Machine Learning"
-    authors: "X. Liu*, <strong>Z. Xue*</strong>, M. Luo, B. Ke, and J. Lv (*Equal contribution; Z. Xue is the first student author)"
+    authors: "X. Liu<sup>†</sup>, <strong>Z. Xue<sup>†</sup></strong>, M. Luo, B. Ke, and J. Lv"
     conference_short: APS
     conference: "<em>Anesthesiology and Perioperative Science</em>, 2, 7, 2024."
     paper: https://doi.org/10.1007/s44254-023-00047-x
+    notes: "† Equal contribution; Z. Xue is the first student author."
 
   - title: "A Multi-Agent Molecular Optimization Framework Leads to a Rapid-Recovery Intravenous Anesthetic Candidate with an Improved Safety Margin"
-    authors: "<strong>Z. Xue*</strong>, W. Ai*, J. Sun, et al. (*Equal contribution)"
+    authors: "<strong>Z. Xue<sup>†</sup></strong>, W. Ai<sup>†</sup>, J. Sun, et al."
     conference_short: In preparation
     conference: "Manuscript in preparation."
+    notes: "† Equal contribution."
 
   - title: "Incorporating the Refractory Period into Spiking Neural Networks through Spike-Triggered Threshold Dynamics"
     authors: "Y. Li, X. Zeng, <strong>Z. Xue</strong>, P. Zeng, Z. Zhang, and Y. Wang"
     conference_short: ACM MM
-    conference: "Proceedings of the 33rd ACM International Conference on Multimedia, 10876-10885, 2025."
+    conference: "Proceedings of the 33rd ACM International Conference on Multimedia, 10876–10885, 2025."
     paper: https://doi.org/10.1145/3746027.3755030
