@@ -3,6 +3,12 @@
 
 @import "minimal-light";
 
+position {
+  display: block;
+  font-size: 0.92rem !important;
+  white-space: nowrap;
+}
+
 .profile-email {
   display: block;
   margin-top: 0.25rem;
@@ -29,7 +35,8 @@
 }
 
 .research-interests {
-  padding-left: 1.1em;
+  padding-left: 0;
+  list-style-position: inside;
 }
 
 .research-summary {
