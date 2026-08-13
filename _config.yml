@@ -1,15 +1,17 @@
 # Basic information
 title: Zhe Xue
-position: M.Eng. Student in Software Engineering
+position: "M.Eng. Student | AI for Drug Discovery & Generative Modeling"
 affiliation: Sichuan University
 email: xuezhe.xz@gmail.com
 
 # Search engine optimization
 keywords: AI for drug discovery, molecular generation, molecular optimization, generative modeling, scientific agents
-description: Zhe Xue is an M.Eng. student at Sichuan University researching AI for drug discovery, molecular generation and optimization, and LLM-based scientific agents.
+description: Zhe Xue develops generative models, molecular optimization methods, and scientific agents for AI-driven drug discovery.
 canonical: https://xuezhe-zachary.github.io/
 
-# Public links confirmed for this site
+# Public links
+google_scholar: https://scholar.google.com/citations?hl=en&user=tvvCbMsAAAAJ
+cv_link: ./assets/files/xuezhe_cv.pdf
 github_link: https://github.com/XueZhe-Zachary
 
 # Profile image
