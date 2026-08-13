@@ -27,10 +27,10 @@
     <link rel="stylesheet" href="./assets/css/font.css">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="./assets/css/style.css?v=20260813-2">
+    <link rel="stylesheet" href="./assets/css/style.css?v=20260813-3">
     <link rel="stylesheet" href="./assets/css/publications.css">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css?v=20260813-2">
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css?v=20260813-3">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
   </head>
@@ -45,19 +45,13 @@
 
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
         {% endif %}
-        {% if site.affiliation %}
-          {% if site.affiliation_link %}
-          <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-          {% else %}
-          <autocolor>{{ site.affiliation }}</autocolor>
-          {% endif %}
+        {% if site.email %}
+        <email class="profile-email">{{ site.email }}</email>
         {% endif %}
 
         <div class="profile-links" aria-label="Profile links">
-          {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
-          {% if site.cv_link %}<span aria-hidden="true"> · </span><a href="{{ site.cv_link }}" target="_blank" rel="noopener">CV</a>{% endif %}
+          {% if site.cv_link %}<a href="{{ site.cv_link }}" target="_blank" rel="noopener">CV</a>{% endif %}
           {% if site.google_scholar %}<span aria-hidden="true"> · </span><a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
           {% if site.github_link %}<span aria-hidden="true"> · </span><a href="{{ site.github_link }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
         </div>
