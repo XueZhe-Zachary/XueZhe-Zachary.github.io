@@ -1,0 +1,44 @@
+---
+---
+
+@import "minimal-light";
+
+.profile-links {
+  margin-top: 0.9rem;
+  line-height: 1.7;
+}
+
+.profile-links a {
+  white-space: nowrap;
+}
+
+.image.avatar img {
+  width: 54%;
+  padding: 16px;
+}
+
+.pub-note {
+  margin-top: 4px;
+  color: #666;
+  font-size: 0.8rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-note {
+    color: #b7b8bd;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+  .image.avatar img {
+    width: 130px;
+    padding: 16px;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  .image.avatar img {
+    width: 108px;
+    padding: 16px;
+  }
+}
