@@ -46,6 +46,18 @@
   margin-bottom: 0;
 }
 
+.publications .bibliography > li {
+  margin-bottom: 22px;
+}
+
+.publications .bibliography > li:last-child {
+  margin-bottom: 0;
+}
+
+.publications .links:empty {
+  display: none;
+}
+
 .pub-note {
   margin-top: 4px;
   color: #666;
