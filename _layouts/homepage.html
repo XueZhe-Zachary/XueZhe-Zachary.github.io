@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ site.title }} | {{ site.affiliation }}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    {% if site.keywords %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
+    {% if site.canonical %}
+    <link rel="canonical" href="{{ site.canonical }}"/>
+    {% endif %}
+
+    {% if site.favicon_dark %}
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png">
+    {% endif %}
+    {% if site.favicon %}
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png">
+    {% endif %}
+
+    {% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+    {% else %}
+    <link rel="stylesheet" href="./assets/css/font.css">
+    {% endif %}
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    {% else %}
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
+    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+    {% endif %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.avatar %}
+        <a class="image avatar"><img src="{{ site.avatar }}" alt="Portrait of Zhe Xue"></a>
+        {% endif %}
+
+        <h1>{{ site.title }}</h1>
+
+        {% if site.position %}
+        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        <br>
+        {% endif %}
+        {% if site.affiliation %}
+        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        {% endif %}
+
+        <div class="profile-links" aria-label="Profile links">
+          {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
+          {% if site.cv_link %}<span aria-hidden="true"> · </span><a href="{{ site.cv_link }}" target="_blank" rel="noopener">CV</a>{% endif %}
+          {% if site.google_scholar %}<span aria-hidden="true"> · </span><a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+          {% if site.github_link %}<span aria-hidden="true"> · </span><a href="{{ site.github_link }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+        </div>
+      </header>
+
+      <section>
+        {{ content }}
+
+        <br>
+
+        {% if site.enable_footnote %}
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+        {% endif %}
+      </section>
+
+      <footer></footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
