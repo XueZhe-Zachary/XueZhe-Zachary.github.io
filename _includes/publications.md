@@ -1,4 +1,4 @@
-<h2 id="publications">Publications</h2>
+<h2 id="publications">Selected Publications &amp; Manuscripts</h2>
 
 <div class="publications">
 <ol class="bibliography">
@@ -13,8 +13,10 @@
         <div class="periodical">{{ publication.conference }}</div>
         <div class="links">
           {% if publication.paper %}<a href="{{ publication.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Paper</a>{% endif %}
-          {% if publication.notes %}<strong><i style="color:#e74d3c">{{ publication.notes }}</i></strong>{% endif %}
+          {% if publication.code %}<a href="{{ publication.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Code</a>{% endif %}
+          {% if publication.project %}<a href="{{ publication.project }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Project</a>{% endif %}
         </div>
+        {% if publication.notes %}<div class="pub-note">{{ publication.notes }}</div>{% endif %}
       </div>
     </div>
   </li>
