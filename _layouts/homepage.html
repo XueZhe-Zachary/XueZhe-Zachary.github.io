@@ -27,15 +27,26 @@
     <link rel="stylesheet" href="./assets/css/font.css">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="./assets/css/style.css?v=20260814-3">
+    <link rel="stylesheet" href="./assets/css/style.css?v=20260814-4">
     <link rel="stylesheet" href="./assets/css/publications.css">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css?v=20260814-3">
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css?v=20260814-4">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
   </head>
   <body>
     <div class="wrapper">
+      <nav class="site-nav" aria-label="Page sections">
+        <div class="site-nav-inner">
+          <a href="#about-me">About</a>
+          <a href="#research-interests">Interests</a>
+          <a href="#publications">Publications</a>
+          <a href="#selected-research">Research</a>
+          <a href="#education">Education</a>
+          <a href="#selected-honors">Honors</a>
+        </div>
+      </nav>
+
       <header>
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="Portrait of Zhe Xue"></a>
