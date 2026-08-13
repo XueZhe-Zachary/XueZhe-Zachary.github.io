@@ -27,10 +27,10 @@
     <link rel="stylesheet" href="./assets/css/font.css">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="./assets/css/style.css?v=20260813-4">
+    <link rel="stylesheet" href="./assets/css/style.css?v=20260814-1">
     <link rel="stylesheet" href="./assets/css/publications.css">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css?v=20260813-4">
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css?v=20260814-1">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
   </head>
@@ -43,12 +43,11 @@
 
         <h1>{{ site.title }}</h1>
 
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        {% endif %}
-        {% if site.email %}
-        <email class="profile-email">{{ site.email }}</email>
-        {% endif %}
+        <div class="profile-meta">
+          {% if site.position %}<div>{{ site.position }}</div>{% endif %}
+          {% if site.affiliation %}<div>{{ site.affiliation }}</div>{% endif %}
+          {% if site.email %}<div>{{ site.email }}</div>{% endif %}
+        </div>
 
         <div class="profile-links" aria-label="Profile links">
           {% if site.cv_link %}<a href="{{ site.cv_link }}" target="_blank" rel="noopener">CV</a>{% endif %}
