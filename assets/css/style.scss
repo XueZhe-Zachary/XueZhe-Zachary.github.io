@@ -5,7 +5,9 @@
 
 .profile-links {
   margin-top: 0.9rem;
+  font-size: 0.82rem;
   line-height: 1.7;
+  white-space: nowrap;
 }
 
 .profile-links a {
@@ -40,5 +42,9 @@
   .image.avatar img {
     width: 108px;
     padding: 16px;
+  }
+
+  .profile-links {
+    white-space: normal;
   }
 }
