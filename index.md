@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 <p class="about-lines">I am an M.Eng. student in Software Engineering at Sichuan University, advised by <a href="https://scholar.google.com/citations?user=qxNzQfQAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Xianggen Liu</a>, with research conducted in collaboration with West China Hospital.<br>
-My research focuses on methodological advances in generative AI and scientific agents, with drug discovery as a primary application domain, particularly molecular generation and optimization.<br>
+My research centers on <strong>generative AI and scientific agents</strong>, with drug discovery as a primary application domain, particularly molecular generation and optimization.<br>
 <strong>I am currently applying for PhD programs starting in Fall 2027</strong> and welcome opportunities to discuss potential research collaborations.</p>
 
 ## Research Interests
@@ -16,6 +16,8 @@ My research focuses on methodological advances in generative AI and scientific a
   <li><strong>Scientific Agents:</strong> agentic systems that can plan, use scientific tools, and adaptively optimize experimental or computational workflows.</li>
 </ul>
 
+{% include publications.md %}
+
 ## Selected Research
 
 ### MASCOT: Multi-Agent Molecular Optimization for Anesthetic Discovery
@@ -23,7 +25,7 @@ My research focuses on methodological advances in generative AI and scientific a
 <div class="research-summary">
   <p><strong>Problem.</strong> Multi-objective molecular optimization requires search strategies to adapt as property bottlenecks change.</p>
   <p><strong>Method.</strong> MASCOT uses specialized LLM agents to adapt objectives, search strategies, and trajectory memory, while a chemically constrained graph editor performs auditable molecular modifications.</p>
-  <p><strong>Outcome.</strong> MASCOT outperformed competing methods across six benchmark settings and achieved 3.6× the docking-score improvement of the strongest baseline on SARS-CoV-2 Mpro. Applied to remimazolam, it generated 2,729 unique candidates and supported the progression from RM-1 synthesis to RM-7, a rapid-recovery intravenous anesthetic candidate identified through subsequent derivatization and experimental screening.</p>
+  <p><strong>Outcome.</strong> MASCOT outperformed competing methods across six benchmark settings. Applied to remimazolam, it generated 2,729 candidates and ultimately contributed to the identification of RM-7 as a rapid-recovery intravenous anesthetic candidate through synthesis and experimental screening.</p>
 </div>
 
 ### TargetSA: Adaptive Simulated Annealing for Target-Specific Drug Design
@@ -40,8 +42,6 @@ My research focuses on methodological advances in generative AI and scientific a
 
 **Spectral Graph Diffusion.** Investigated Laplacian spectra as representations of global connectivity and ring topology for molecular graph generation. Experiments on QM9 and ZINC250K indicated that spectral features are more suitable as auxiliary guidance than as a standalone generation space because they do not sufficiently preserve local chemical constraints.
 
-{% include publications.md %}
-
 ## Education
 
 **Sichuan University**  
@@ -55,11 +55,13 @@ Summer Workshop, School of Computing, 2022
 
 ## Selected Honors
 
-- **National Scholarship** (2023)
-- **Outstanding Graduate of Sichuan Province** (2024)
-- **Top Ten Students Nominee** — 15 nominees for the university’s highest student honor (2024)
-- **Scholarship for “Star of Reading”** — 10 recipients university-wide (2024)
-- **Scholarship for Gratitude to Modern Chinese Scientists** — 12 recipients university-wide (2023)
-- **National First Prize**, China Robotics and Artificial Intelligence Competition (2023)
+<ul class="selected-honors">
+  <li><strong>National Scholarship</strong> (2023)</li>
+  <li><strong>Outstanding Graduate of Sichuan Province</strong> (2024)</li>
+  <li><strong>Top Ten Students Nominee</strong> — 15 nominees for the university’s highest student honor (2024)</li>
+  <li><strong>Scholarship for “Star of Reading”</strong> — 10 recipients university-wide (2024)</li>
+  <li><strong>Scholarship for Gratitude to Modern Chinese Scientists</strong> — 12 recipients university-wide (2023)</li>
+  <li><strong>National First Prize</strong>, China Robotics and Artificial Intelligence Competition (2023)</li>
+</ul>
 
 See my [CV](./assets/files/xuezhe_cv.pdf) for additional honors and awards.
