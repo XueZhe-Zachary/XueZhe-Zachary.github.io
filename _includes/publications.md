@@ -12,7 +12,6 @@
         <div class="author">{{ publication.authors }}</div>
         <div class="periodical">{{ publication.conference }}</div>
         <div class="links">
-          {% if publication.paper %}<a href="{{ publication.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Paper</a>{% endif %}
           {% if publication.code %}<a href="{{ publication.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Code</a>{% endif %}
           {% if publication.project %}<a href="{{ publication.project }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Project</a>{% endif %}
         </div>
