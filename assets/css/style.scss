@@ -46,11 +46,12 @@
   margin-bottom: 0;
 }
 
-.publications .bibliography > li {
+body .publications ol.bibliography > li {
+  min-height: 0;
   margin-bottom: 22px;
 }
 
-.publications .bibliography > li:last-child {
+body .publications ol.bibliography > li:last-child {
   margin-bottom: 0;
 }
 
