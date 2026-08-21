@@ -4,7 +4,7 @@ main:
     conference_short: Bioinformatics
     conference: "<em>Bioinformatics</em>, 41(1), btae730, 2025."
     paper: https://doi.org/10.1093/bioinformatics/btae730
-    notes: "First author."
+    notes: "First author"
 
   - title: "A Multi-Agent Molecular Optimization Framework Leads to a Rapid-Recovery Intravenous Anesthetic Candidate with an Improved Safety Margin"
     authors: "<strong>Z. Xue<sup>†</sup></strong>, W. Ai<sup>†</sup>, J. Sun, et al."
@@ -23,5 +23,5 @@ main:
   - title: "Incorporating the Refractory Period into Spiking Neural Networks through Spike-Triggered Threshold Dynamics"
     authors: "Y. Li, X. Zeng, <strong>Z. Xue</strong>, P. Zeng, Z. Zhang, and Y. Wang"
     conference_short: ACM MM
-    conference: "<em>Proceedings of the 33rd ACM International Conference on Multimedia</em>, 10876–10885, 2025."
+    conference: "Proceedings of the 33rd ACM International Conference on Multimedia, 10876–10885, 2025."
     paper: https://doi.org/10.1145/3746027.3755030
