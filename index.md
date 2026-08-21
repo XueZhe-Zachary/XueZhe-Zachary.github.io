@@ -54,11 +54,11 @@ My research centers on <strong>generative AI and scientific agents</strong>, wit
 
 <ul class="selected-honors">
   <li><strong>National Scholarship</strong> (2023)</li>
-  <li><strong>Outstanding Graduate of Sichuan Province</strong> (2024)</li>
-  <li><strong>Top Ten Students Nominee</strong> — 15 nominees for the university’s highest student honor (2024)</li>
-  <li><strong>Scholarship for “Star of Reading”</strong> — 10 recipients university-wide (2024)</li>
-  <li><strong>Scholarship for Gratitude to Modern Chinese Scientists</strong> — 12 recipients university-wide (2023)</li>
-  <li><strong>National First Prize</strong>, China Robotics and Artificial Intelligence Competition (2023)</li>
+  <li>Outstanding Graduate of Sichuan Province (2024)</li>
+  <li>Top Ten Students Nominee — 15 nominees for the university’s highest student honor (2024)</li>
+  <li>Scholarship for “Star of Reading” — 10 recipients university-wide (2024)</li>
+  <li>Scholarship for Gratitude to Modern Chinese Scientists — 12 recipients university-wide (2023)</li>
+  <li>National First Prize, China Robotics and Artificial Intelligence Competition (2023)</li>
 </ul>
 
 See my [CV](./assets/files/xuezhe_cv.pdf) for additional honors and awards.
