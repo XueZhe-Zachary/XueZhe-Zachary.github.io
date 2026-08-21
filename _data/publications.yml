@@ -8,8 +8,9 @@ main:
 
   - title: "A Multi-Agent Molecular Optimization Framework Leads to a Rapid-Recovery Intravenous Anesthetic Candidate with an Improved Safety Margin"
     authors: "<strong>Z. Xue<sup>†</sup></strong>, W. Ai<sup>†</sup>, J. Sun, et al."
-    conference_short: In preparation
-    conference: "Manuscript in preparation."
+    conference_short: Preprint
+    conference: "Preprint."
+    paper: https://doi.org/10.64898/2026.08.17.745149
     notes: "† Equal contribution."
 
   - title: "Anesthetic Drug Discovery with Computer-Aided Drug Design and Machine Learning"
