@@ -5,15 +5,17 @@ layout: homepage
 ## About Me
 
 <p class="about-lines">I am an M.Eng. student in Software Engineering at Sichuan University, advised by <a href="https://scholar.google.com/citations?user=qxNzQfQAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Xianggen Liu</a>, with research conducted in collaboration with West China Hospital.<br>
-My research centers on <strong>generative AI and scientific agents</strong>, with drug discovery as a primary application domain, particularly molecular generation and optimization.<br>
 <strong>I am currently applying for PhD programs starting in Fall 2027.</strong></p>
 
 ## Research Interests
 
+<p class="research-focus"><strong>Research Focus:</strong><br>
+Reliable generative AI and scientific agents for closed-loop molecular discovery.</p>
+
 <ul class="research-interests">
-  <li><strong>AI for Drug Discovery:</strong> molecular generation and optimization under complex structural and property constraints.</li>
-  <li><strong>Generative Modeling:</strong> controllable and reliable generative models for scientific domains.</li>
-  <li><strong>Scientific Agents:</strong> agentic systems that can plan, use scientific tools, and adaptively optimize experimental or computational workflows.</li>
+  <li><strong>Generative Molecular Design:</strong> molecular generation and optimization; protein–ligand modeling</li>
+  <li><strong>Scientific Agents:</strong> planning, tool use, multi-agent coordination, and feedback-driven learning</li>
+  <li><strong>Reliable AI for Science:</strong> controllability, robustness, uncertainty-aware evaluation, and biological safety</li>
 </ul>
 
 {% include publications.md %}
