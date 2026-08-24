@@ -9,13 +9,12 @@ layout: homepage
 
 ## Research Interests
 
-<p class="research-focus"><strong>Research Focus:</strong><br>
-Reliable generative AI and scientific agents for closed-loop molecular discovery.</p>
+<p class="research-focus"><strong>Research Focus:</strong> Reliable generative AI and scientific agents for closed-loop molecular discovery.</p>
 
 <ul class="research-interests">
   <li><strong>Generative Molecular Design:</strong> molecular generation and optimization; protein–ligand modeling</li>
   <li><strong>Scientific Agents:</strong> planning, tool use, multi-agent coordination, and feedback-driven learning</li>
-  <li><strong>Reliable AI for Science:</strong> controllability, robustness, uncertainty-aware evaluation, and biological safety</li>
+  <li><strong>Reliable AI4Science:</strong> controllability, robustness, uncertainty-aware evaluation, and biological safety</li>
 </ul>
 
 {% include publications.md %}
